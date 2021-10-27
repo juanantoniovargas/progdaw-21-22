@@ -5,7 +5,7 @@ public class Ejercicio12 {
   System.out.print("Introduce cuantos números de la serie de Fibonacci quieres ver: ");
   x = Integer.parseInt(System.console().readLine());
   
-  for (int i=0; i<=x; i++) {
+  for (int i=1; i<=x; i++) {
     System.out.print(y + " ");
     y = y + z;
     z = y - z;

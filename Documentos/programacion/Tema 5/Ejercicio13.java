@@ -1,6 +1,6 @@
 public class Ejercicio13 {
   public static void main(String[] args) {
-  int x=0, pos=0, neg=0;
+  int x, pos=0, neg=0;
   
   System.out.println("Introduce 10 números:");
   
