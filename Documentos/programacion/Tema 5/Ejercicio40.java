@@ -7,7 +7,7 @@ public class Ejercicio40 {
   
   if ((altura<3) || (altura%2==0)) {
     System.out.print("Número incorrecto, ha de ser impar y mayor que 3.");
-  }
+  } else {
   
   espacios = altura/2;
   altura = altura/2+1;
@@ -45,6 +45,7 @@ public class Ejercicio40 {
     espacios++;
     espacios2 = espacios2-2;
   }
-  
+  }
+
   }
 }

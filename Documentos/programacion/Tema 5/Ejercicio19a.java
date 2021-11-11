@@ -1,23 +1,25 @@
-public class Ejercicio19 {
+public class Ejercicio19a {
   public static void main(String[] args) {
-  int altura, espacios, caracteres=1;
+  int altura, espacios, caracteres;
   String caracter;
   
   System.out.print("Introduce la altura de la pirámide: ");
   altura = Integer.parseInt(System.console().readLine());
   System.out.print("Introduce un carácter con el que pintarla: ");
   caracter = (System.console().readLine());
-  espacios=altura-1;
+  espacios=0;
+  caracteres=altura;
+  System.out.println();
   
-  for (int j=0; j<altura; j++) {
-    for (int i=0; i<espacios; i++) {
+  for (int i=0; i<altura; i++) {
+    for (int j=0; j<espacios; j++) {
       System.out.print(" ");
     }
-    espacios--;
-    for (int k=0; k<caracteres; k++) {
-      System.out.print(caracter);
+    espacios++;
+    for (int j=0; j<caracteres; j++) {
+      System.out.print(caracter+" ");
     }
-    caracteres = caracteres + 2;
+    caracteres--;
     System.out.println();
   }
   
