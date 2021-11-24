@@ -8,6 +8,8 @@ public class Ejercicio6 {
     num[i] = Integer.parseInt(System.console().readLine());
   }
   
+  System.out.println("Números con posición rotada:");
+  
   int aux = num[14];
   
   for (int i=14; i>=1; i--) {
